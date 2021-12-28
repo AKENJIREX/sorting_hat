@@ -1,0 +1,9 @@
+body {
+  background-image: url(../Images/successful.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.connect {
+  background-color: rgb(253, 237, 9);
+}

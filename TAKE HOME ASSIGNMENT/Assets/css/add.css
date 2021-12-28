@@ -1,0 +1,21 @@
+body {
+  background-image: url(../Images/foraccount.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#theaccount {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+}
+.give {
+  color: rgb(219, 216, 15);
+}
+.gives {
+  background-color: rgb(11, 70, 9);
+  color: rgb(253, 237, 10);
+}

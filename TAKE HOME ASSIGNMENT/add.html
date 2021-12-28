@@ -1,0 +1,22 @@
+<html>
+  <link rel="stylesheet" href="Assets/css/add.css">
+  <body>
+    <div id="theaccount">
+    
+    <h1 class="gives">CREATE YOUR ACCOUNT</h1>
+      <form action="addProfile.php" method="post">
+        <h2 class="give">First Name: <input type="text"  name="firstname" required/></h2>
+        <h2 class="give">Last Name: <input type="text" name="lastname" required/></h2> 
+        <h2 class="give">Age: <input type="number" name="age" required/></h2> 
+        <h2 class="give">Gender: <select name="gender" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select></h2>
+        
+        <h2 class="give">Interests: <textarea name="interests" id="" cols="30" rows="10"></textarea></h2>
+        <h2 class="give">Phone:<input type="tel" name="number" /></h2> 
+        <h3 class="gives">CLICK SUBMIT TO SUBMIT ACCOUNT DETAILS</h3><input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
